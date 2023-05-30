@@ -2,6 +2,5 @@
 
 ## Instalation
 
-----> kubernetese
-----> Argo CD
+#### kubernetese Argo CD
 
