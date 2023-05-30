@@ -1,6 +1,7 @@
 # bitnami_sealed_secret
 
-## Instalation
+## Pré-requis
 
-#### kubernetese Argo CD
+#### kubernetese, Argo CD
+
 
