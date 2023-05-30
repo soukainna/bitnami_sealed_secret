@@ -22,6 +22,13 @@ wget https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.21.0/co
 
 kubectl apply -f controller.yaml
 
+### CMD
+
+In the K8s cluster we can create our secret by using this cmd
+
+echo -n bar | kubectl create secret generic mysecret --dry-run=client --from-file=password=/dev/stdin -o json >mysecret.json
+
+kubeseal <mysecret.json >mysealedsecret.json
 
 
 
