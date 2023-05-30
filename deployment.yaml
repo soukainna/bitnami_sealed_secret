@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sealedSecret
+  name: bitnamisecret
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: sealedSecret
+      app: bitnamisecret
   template:
     metadata:
       labels:
-        app: sealedSecret
+        app: bitnamisecret
     spec:
       containers:
       - name: mysql
